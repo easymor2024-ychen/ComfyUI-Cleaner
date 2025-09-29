@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 # 重启comfyui
 
+```txt
 文件放入comfyui/custom_nodes/
 可通过环境变量配置清理参数：
     CLEANUP_DIRECTORIES：监控目录，逗号分隔
@@ -28,10 +29,16 @@ pip install -r requirements.txt
     CPU_THRESHOLD: 低于多少利用率执行 80%
     STATE_FILE: 清理-扫描记录文件 默认 /tmp/cleanup_daemon_state.json
 启动 ComfyUI 时会自动加载并启动清理程序，无需额外操作
+```
 
 提示：
+
 本项目开发参与：
+
 豆包AI -- 负责代码架构与开发
+
 通义千文AI -- 负责代码运行调试
+
 DeepSeek AI -- 负责运行时代码修复
+
 本人 -- 集成项目
