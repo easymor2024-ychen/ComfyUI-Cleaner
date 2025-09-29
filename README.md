@@ -10,7 +10,7 @@ ComfyUI plugins of File Cleaning
 cd comfyui/custom_nodes
 
 # 拉取代码
-git clone ~
+git clone https://github.com/easymor2024-ychen/ComfyUI-Cleaner.git
 
 # 执行依赖下载
 pip install -r requirements.txt
