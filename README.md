@@ -1,4 +1,5 @@
 # ComfyUI-Cleaner
+
 ComfyUI plugins of File Cleaning
 
 基于容器化部署comfyui，输出文件comfyui/output/ 下会日积月累文件，由此开发的自动清理输出文件的插件；
@@ -6,16 +7,20 @@ ComfyUI plugins of File Cleaning
 支持多目录清理。
 
 部署方式:
-# 假设您的源码文件地址是：comfyui/
+
+## 假设您的源码文件地址是：comfyui/
+
 cd comfyui/custom_nodes
 
-# 拉取代码
+## 拉取代码
+
 git clone https://github.com/easymor2024-ychen/ComfyUI-Cleaner.git
 
-# 执行依赖下载
+## 执行依赖下载
+
 pip install -r requirements.txt
 
-# 重启comfyui
+## 重启comfyui
 
 ```txt
 文件放入comfyui/custom_nodes/
@@ -30,15 +35,3 @@ pip install -r requirements.txt
     STATE_FILE: 清理-扫描记录文件 默认 /tmp/cleanup_daemon_state.json
 启动 ComfyUI 时会自动加载并启动清理程序，无需额外操作
 ```
-
-提示：
-
-本项目开发参与：
-
-豆包AI -- 负责代码架构与开发
-
-通义千文AI -- 负责代码运行调试
-
-DeepSeek AI -- 负责运行时代码修复
-
-本人 -- 集成项目

@@ -1,0 +1,16 @@
+[project]
+name = "ComfyUI-Cleaner"
+description = "ComfyUI-Cleaner 文件目录清理插件，主要应用linux服务自动清理生产物文件"
+version = "1.0.0"
+license = { file = "LICENCE" }
+dependencies = ["psutil>=5.9.0"]
+
+[project.urls]
+Repository = "https://github.com/easymor2024-ychen/ComfyUI-Cleaner.git"
+
+[tool.comfy]
+PublisherId = "easymor2024"
+DisplayName = "ComfyUI-Cleaner"
+Icon = "https://avatars.githubusercontent.com/u/226438124?s=96&v=4"
+
+
