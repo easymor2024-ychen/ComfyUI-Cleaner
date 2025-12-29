@@ -1,9 +1,10 @@
 [project]
 name = "ComfyUI-Cleaner"
 description = "ComfyUI-Cleaner 文件目录清理插件，主要应用linux服务自动清理生产物文件"
-version = "1.0.0"
+version = "0.0.1"
 license = { file = "LICENCE" }
 dependencies = ["psutil>=5.9.0"]
+authors = [{ name = "easymor", email = "easymor@163.com" }]
 
 [project.urls]
 Repository = "https://github.com/easymor2024-ychen/ComfyUI-Cleaner.git"
